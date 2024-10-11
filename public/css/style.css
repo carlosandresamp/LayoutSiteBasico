@@ -1,0 +1,120 @@
+/* Define estilo geral para todo o site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho, incluindo logo e navegação */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo da logo */
+.logo img {
+    height: 40px;
+}
+
+/* Estilo da navegação principal */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+/* Estilo dos links de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+/* Efeito de hover nos links */
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilo da seção hero (destaque inicial) */
+.hero {
+    background-image: url('../images/imagemTeste.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+/* Estilo do botão */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f76c6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Efeito de hover no botão */
+.btn:hover {
+    background-color: #f44336;
+}
+
+/* Estilo das seções internas (sobre e serviços) */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo dos serviços */
+.servico {
+    margin-bottom: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilo das redes sociais no rodapé */
+.social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilo dos links de redes sociais */
+.social li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Efeito de hover nos links de redes sociais */
+.social li a:hover {
+    color: #f76c6c;
+}
